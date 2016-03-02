@@ -5,7 +5,7 @@ web shop. AltaPay is fully integrated with Magento via a plug-in. All you have t
 which will only take a few minutes to complete.
 
 ## Supported functionalities
-![skaermbillede 2016-03-02 kl 15 17 49](https://cloud.githubusercontent.com/assets/17084032/13462909/08d6dc4c-e08a-11e5-84a4-29d7d74091fb.png)
+![skaermbillede 2016-03-02 kl 15 24 29](https://cloud.githubusercontent.com/assets/17084032/13463104/fbd50f90-e08a-11e5-90c1-60d1ace4216a.png)
 
 ## Supported versions
 Magento 1.X
