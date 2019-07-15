@@ -19,11 +19,11 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 2.3.0
 - Improvements
-        - Added support for Gift Cards
-        - Added support for price rule discount in combination with cart discount
+    - Added support for Gift Cards
+    - Added support for price rule discount in combination with cart discount
 - Bug fixtures
-		- Wrong total amount when comma is used as decimal on numbers over 3 digits
-		- Unit price including the tax amount in certain situations
+    - Wrong total amount when comma is used as decimal on numbers over 3 digits
+    - Unit price including the tax amount in certain situations
 
 2.2.0
 - Improvements
@@ -33,9 +33,9 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
     	- capture is now possible
     	- added more details (customer and transaction information) when order is created in the payment gateway
 - Bug fixtures
-		- Plugin versioning correctly parsed across all calls to the payment gateway
-		- Success action: reserve ID matching with the one from the createPayment request
-		- Notification action
+    - Plugin versioning correctly parsed across all calls to the payment gateway
+    - Success action: reserve ID matching with the one from the createPayment request
+    - Notification action
 * Note:
 	- Only discounts in percentage, two digits, are supported for payments made with Klarna
 
