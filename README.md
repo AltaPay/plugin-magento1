@@ -17,6 +17,13 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.5.0
+* Improvement
+	- Added logs in key places
+* Bug fixtures
+	- Payment information not shown in the order view
+	- Missing or duplicated orders due to various reasons
+
 2.4.1
 * Bug fixture
     - Error page shown on successful MobilePay payment
@@ -36,56 +43,56 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 2.3.0
 * Improvements
-    - Added support for Gift Cards
-    - Added support for price rule discount in combination with cart discount
+	- Added support for Gift Cards
+	- Added support for price rule discount in combination with cart discount
 * Bug fixtures
-    - Wrong total amount when comma is used as decimal on numbers over 3 digits
-    - Unit price including the tax amount in certain situations
+	- Wrong total amount when comma is used as decimal on numbers over 3 digits
+	- Unit price including the tax amount in certain situations
 
 2.2.0
 * Improvements
-    - Added cart discount as a separate orderline, aligned with the payment gateway
-    - PHP SDK updates in order to perform captures on MOTO orders
-    - MOTO orders improvements:
-    	- capture is now possible
-    	- added more details (customer and transaction information) when order is created in the payment gateway
+	- Added cart discount as a separate orderline, aligned with the payment gateway
+	- PHP SDK updates in order to perform captures on MOTO orders
+	- MOTO orders improvements:
+		- capture is now possible
+		- added more details (customer and transaction information) when order is created in the payment gateway
 * Bug Fixtures:
-	- plugin versioning correctly parsed across all calls to the payment gateway
-	- success action: reserve ID matching with the one from the createPayment request
-	- notification action
+	- Plugin versioning correctly parsed across all calls to the payment gateway
+	- Success action: reserve ID matching with the one from the createPayment request
+	- Notification action
 * Note:
 	- Only discounts in percentage, two digits, are supported for payments made with Klarna
 
 2.1.0
 * Improvements
-    - Stronger solution for handling thousand and decimal separators
-    - Payment method displayed properly, along with the currency under "Payment information" section
+	- Stronger solution for handling thousand and decimal separators
+	- Payment method displayed properly, along with the currency under "Payment information" section
 * Bug fixtures
-    - Capture online failing on orders created before rebranding changes update
-    - Create CreditMemo functionality broken
+	- Capture online failing on orders created before rebranding changes update
+	- Create CreditMemo functionality broken
 
 2.0.0
 * Improvements
-    - Invoice automatically created when ePayment is used
+	- Invoice automatically created when ePayment is used
 * Bug fixtures
-    - Cart is not cleared after the order is created
-    - Missing orders when consumer logs into account during the checkout process
+	- Cart is not cleared after the order is created
+	- Missing orders when consumer logs into account during the checkout process
 
 1.9.0
 * Improvements
-    - Branding changes from Altapay to Valitor
-    - Platform and plugin versioning information sent to the payment gateway
+	- Branding changes from Altapay to Valitor
+	- Platform and plugin versioning information sent to the payment gateway
 * Bug fixtures
-    - Capture functionality failing due to wrong serialization
+	- Capture functionality failing due to wrong serialization
 
 1.8.0
 * Improvements
-    - Send tax information for the shipping items
-    - Update the PHP SDK
+	- Send tax information for the shipping items
+	- Update the PHP SDK
 * Bug fixtures
-    - Terminal name shown correctly in the checkout page
-    - The payment fetched correctly in the success Action
-    - The order is created correctly
+	- Terminal name shown correctly in the checkout page
+	- The payment fetched correctly in the success Action
+	- The order is created correctly
 
 1.7.2
 * Platform improvements
