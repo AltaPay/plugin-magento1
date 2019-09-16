@@ -17,6 +17,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.6.1
+* Bug fixture
+    - Shipping details not correctly read from the payment gateway payload
+
 2.6.0
 * Improvement
     - Parse the shipping details, from the payment gateway, at order creation when shipping modules are used
