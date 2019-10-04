@@ -13,13 +13,32 @@ Magento 1.X
 ## Contact
 Feel free to contact our partnership team (partnerships@valitor.com) if you need any assistance.
 
+## Limitations
+
+* Coupon discounts:
+    - Discount on prices, tax excluded
+    - Customer tax applied after discount
+* Partial captures, applicable only to payments made with Klarna
+    - Partial quantity of a product while doing partial capture.
+    - Bundle products, including coupons
+
 ## Change log
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.7.0
+* Improvements:
+    - Added support for bundle products
+    - Multiple enhancements related to various types of discounts
+    - Added support for shipping discounts
+    - Shipping can be refunded as a regular order line
+    - Added a list of limitations (subject to changes)
+* Bug fixture:
+    - Failed partial captures and refunds when Klarna used
+
 2.6.1
 * Bug fixture
-    - Shipping details not correctly read from the payment gateway payload
+    - Shipping details not correctly fetched from the payment gateway payload
 
 2.6.0
 * Improvement
