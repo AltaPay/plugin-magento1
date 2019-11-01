@@ -17,7 +17,6 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 * Coupon discounts:
     - Discount on prices, tax excluded
-    - Customer tax applied after discount
 * Partial captures, applicable only to payments made with Klarna
     - Partial quantity of a product while doing partial capture.
     - Bundle products, including coupons
