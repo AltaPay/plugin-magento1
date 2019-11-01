@@ -26,15 +26,27 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.8.0
+* Improvements:
+    - Additional improvements for bundle products
+    - Added support for:
+        - configurable products with fixed price
+        - customer tax after discount configuration
+        - multiple catalog discounts
+        - amounts with more than two digits (payment gateway limitation)
+* Bug fixtures:
+    - Missing shipping details or phone number, when 3rd party plugins used, at order creation
+    - Hijacked sessions issue
+
 2.7.0
 * Improvements:
-    - Added support for bundle products
-    - Multiple enhancements related to various types of discounts
-    - Added support for shipping discounts
-    - Shipping can be refunded as a regular order line
-    - Added a list of limitations (subject to changes)
+   - Added support for bundle products
+   - Multiple enhancements related to various types of discounts
+   - Added support for shipping discounts
+   - Shipping can be refunded as a regular order line
+   - Added a list of limitations(subject to changes)
 * Bug fixture:
-    - Failed partial captures and refunds when Klarna used
+   - Failed partial captures and refunds when Klarna used
 
 2.6.1
 * Bug fixture
