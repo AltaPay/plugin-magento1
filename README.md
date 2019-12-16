@@ -17,13 +17,23 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 * Coupon discounts:
     - Discount on prices, tax excluded
+    - Customer tax applied after discount
 * Partial captures, applicable only to payments made with Klarna
-    - Partial quantity of a product while doing partial capture.
-    - Bundle products, including coupons
+    - Partial quantity of a product while doing partial capture
 
 ## Change log
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
+
+2.9.0
+
+* Improvements:
+    - Orders created before payment page to avoid missing orders
+    - Full support for configurable products
+    - Revamp orderlines for capture and refund calls
+    - Final updates related to the branding changes
+* Bug fixture:
+    - Correctly handling of the open notification callback
 
 2.8.0
 * Improvements:
