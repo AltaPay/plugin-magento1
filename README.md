@@ -25,8 +25,13 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
-2.9.0
 
+2.9.1
+* Bug fixtures:
+    - Potential quote duplicates at order creation
+    - Performance issues at load order and redirect to success page
+
+2.9.0
 * Improvements:
     - Orders created before payment page to avoid missing orders
     - Full support for configurable products
