@@ -25,6 +25,13 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.10.0
+
+* Improvements:
+    - Added full support for multiple tax rates
+    - Various improvements in order to support a certain gift card plugin
+* Bug fixture:
+    - Discounts and tax amounts with more than two digits
 
 2.9.1
 * Bug fixtures:
