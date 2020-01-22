@@ -25,6 +25,17 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.11.0
+
+* Improvements:
+    - Added support for discounts with fixed amount coupons
+* Bug fixtures:
+    - Capture failing on certain orders created with MobilePay
+    - Partial captures failing when compensation amount involved
+    - Email with successful order not sent when only notification callback is triggered
+    - Order status not changing from Canceled to Processing if successful payment
+    - Original price shown in the order details
+
 2.10.0
 
 * Improvements:
