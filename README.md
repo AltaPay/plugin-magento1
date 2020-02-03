@@ -25,6 +25,12 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
 
+2.11.1
+
+* Bug fixtures:
+    - Broken credit card token functionality
+    - MobilePay orders created under certain situations cannot be captured from the admin panel
+
 2.11.0
 
 * Improvements:
