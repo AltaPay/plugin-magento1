@@ -4,8 +4,6 @@ Integrating with Valitor could not be easier. Choose between Hosted, HTTP POST o
 alternatively browse our selection of client libraries and e-commerce platform modules. Imagine having full
 creative control over payment flow, checkout design, and A/B testing without any card data risk.
 
-## Supported functionalities
-![skaermbillede 2016-03-02 kl 15 24 29](https://cloud.githubusercontent.com/assets/17084032/13463104/fbd50f90-e08a-11e5-90c1-60d1ace4216a.png)
 
 ## Supported versions
 Magento 1.X
