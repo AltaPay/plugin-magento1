@@ -22,7 +22,7 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
     - Major refactoring for improving the source code quality
     - Added cancel order functionality
     - Refactored shipping tax percentage method, due to the deprecation for versions above 1.9.2
-    - Revamped the quote convertion to order logic
+    - Revamped the quote conversion to order logic
     - Added support for Downloadable products with customs prices
     - Added support for Klarna Payments (Klarna reintegration)
     - Tracking info sent at capture call, if available
