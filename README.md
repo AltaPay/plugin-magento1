@@ -11,17 +11,28 @@ Magento 1.X
 ## Contact
 Feel free to contact our partnership team (partnerships@valitor.com) if you need any assistance.
 
-## Limitations
-
-* Coupon discounts:
-    - Discount on prices, tax excluded
-    - Customer tax applied after discount
-* Partial captures, applicable only to payments made with Klarna
-    - Partial quantity of a product while doing partial capture
-
 ## Change log
 
 !!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
+
+3.0.0
+
+* Improvements:
+	- Added plugin disclaimer
+    - Major refactoring for improving the source code quality
+    - Added cancel order functionality
+    - Refactored shipping tax percentage method, due to the deprecation for versions above 1.9.2
+    - Revamped the quote convertion to order logic
+    - Added support for Downloadable products with customs prices
+    - Added support for Klarna Payments (Klarna reintegration)
+    - Tracking info sent at capture call, if available
+    - Improved functionality for credit card token usage
+* Bug fixes:
+    - Empty payment method tile shown in the checkout if the title is not configured
+    - Order not canceled if the payment is released by the payment gateway
+    - Zero amount items not sent as orderlines
+    - Bundle products with fixed price not included in the orderlines
+	- Order not saved and exception is thrown if quote is not converted into order
 
 2.11.1
 
