@@ -13,10 +13,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 ## Change log
 
-!!! Important note related to the branding changes: please uninstall the Altapay plugin before installing the newer version (greater than 1.8.0)!
+3.1.0
+* Removed MOTO functionality due to Magento 1 EOL and PCI compliance
 
 3.0.0
-
 * Improvements:
 	- Added plugin disclaimer
     - Major refactoring for improving the source code quality
@@ -35,16 +35,14 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 	- Order not saved and exception is thrown if quote is not converted into order
 
 2.11.1
-
-* Bug fixtures:
+* Bug fixes:
     - Broken credit card token functionality
     - MobilePay orders created under certain situations cannot be captured from the admin panel
 
 2.11.0
-
-* Improvements:
-    - Added support for discounts with fixed amount coupons
-* Bug fixtures:
+* Improvement:
+    - Added support for discounts when coupon with fixed amount
+* Bug fixes:
     - Capture failing on certain orders created with MobilePay
     - Partial captures failing when compensation amount involved
     - Email with successful order not sent when only notification callback is triggered
@@ -52,17 +50,16 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
     - Original price shown in the order details
 
 2.10.0
-
 * Improvements:
     - Added full support for multiple tax rates
     - Various improvements in order to support a certain gift card plugin
-* Bug fixture:
+* Bug fix:
     - Discounts and tax amounts with more than two digits
 
 2.9.1
-* Bug fixtures:
+* Bug fixes:
     - Potential quote duplicates at order creation
-    - Performance issues at load order and redirect to success page
+    - Performance fix at load order and redirect to success page
 
 2.9.0
 * Improvements:
@@ -70,7 +67,7 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
     - Full support for configurable products
     - Revamp orderlines for capture and refund calls
     - Final updates related to the branding changes
-* Bug fixture:
+* Bug fix:
     - Correctly handling of the open notification callback
 
 2.8.0
@@ -81,7 +78,7 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
         - customer tax after discount configuration
         - multiple catalog discounts
         - amounts with more than two digits (payment gateway limitation)
-* Bug fixtures:
+* Bug fixes:
     - Missing shipping details or phone number, when 3rd party plugins used, at order creation
     - Hijacked sessions issue
 
@@ -92,57 +89,57 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
    - Added support for shipping discounts
    - Shipping can be refunded as a regular order line
    - Added a list of limitations(subject to changes)
-* Bug fixture:
+* Bug fix:
    - Failed partial captures and refunds when Klarna used
-
+   
 2.6.1
-* Bug fixture
-    - Shipping details not correctly fetched from the payment gateway payload
+* Bug fix:
+    - Shipping details not correctly read from the payment gateway payload
 
 2.6.0
-* Improvement
+* Improvement:
     - Parse the shipping details, from the payment gateway, at order creation when shipping modules are used
 
 2.5.0
-* Improvement
-	- Added logs in key places
-* Bug fixtures
+* Improvement:
+	-  Added logs in key places
+* Bug fixes:
 	- Payment information not shown in the order view
 	- Missing or duplicated orders due to various reasons
 
 2.4.1
-* Bug fixture
+* Bug fix:
     - Error page shown on successful MobilePay payment
 
 2.4.0
-* Improvements
+* Improvements:
 	- Major refactoring in the notificationAction flow
 		- no redirected to successAction is being made, the order is created separately
 	- Handling discounts, particularly on price including tax
 	- Updates in terms of logging, for a better overview when something fails
-* Bug fixtures
+* Bug fix:
 	- Unit price not fetched correctly on price including taxes
-* Note
+* Note:
 	- The discounts cannot be properly fetched when following scenarios: Catalog prices: excluding tax, Apply customer tax: after discount, apply discount on prices:
 		- including tax
 		- excluding tax
 
 2.3.0
-* Improvements
+* Improvements:
 	- Added support for Gift Cards
 	- Added support for price rule discount in combination with cart discount
-* Bug fixtures
+* Bug fixes:
 	- Wrong total amount when comma is used as decimal on numbers over 3 digits
 	- Unit price including the tax amount in certain situations
 
 2.2.0
-* Improvements
+* Improvements:
 	- Added cart discount as a separate orderline, aligned with the payment gateway
 	- PHP SDK updates in order to perform captures on MOTO orders
 	- MOTO orders improvements:
 		- capture is now possible
 		- added more details (customer and transaction information) when order is created in the payment gateway
-* Bug Fixtures:
+* Bug fixes:
 	- Plugin versioning correctly parsed across all calls to the payment gateway
 	- Success action: reserve ID matching with the one from the createPayment request
 	- Notification action
@@ -150,32 +147,32 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 	- Only discounts in percentage, two digits, are supported for payments made with Klarna
 
 2.1.0
-* Improvements
+* Improvements:
 	- Stronger solution for handling thousand and decimal separators
 	- Payment method displayed properly, along with the currency under "Payment information" section
-* Bug fixtures
+* Bug fixes:
 	- Capture online failing on orders created before rebranding changes update
 	- Create CreditMemo functionality broken
 
 2.0.0
-* Improvements
+* Improvement:
 	- Invoice automatically created when ePayment is used
-* Bug fixtures
+* Bug fixes:
 	- Cart is not cleared after the order is created
 	- Missing orders when consumer logs into account during the checkout process
 
 1.9.0
-* Improvements
+* Improvements:
 	- Branding changes from Altapay to Valitor
 	- Platform and plugin versioning information sent to the payment gateway
-* Bug fixtures
+* Bug fix:
 	- Capture functionality failing due to wrong serialization
 
 1.8.0
-* Improvements
+* Improvements:
 	- Send tax information for the shipping items
 	- Update the PHP SDK
-* Bug fixtures
+* Bug fixes:
 	- Terminal name shown correctly in the checkout page
 	- The payment fetched correctly in the success Action
 	- The order is created correctly
