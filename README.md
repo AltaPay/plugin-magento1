@@ -13,6 +13,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 ## Change log
 
+3.1.1
+* Improvements
+    - Support for multi-site payment
+
 3.1.0
 * Removed MOTO functionality due to Magento 1 EOL and PCI compliance
 
