@@ -13,6 +13,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 ## Change log
 
+3.1.2
+* Bug fixes
+    - Fixed issue for subscription payments
+    
 3.1.1
 * Improvements
     - Support for multi-site payment
