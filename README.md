@@ -15,7 +15,7 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 3.1.2
 * Bug fixes
-    - Fixed issue for subscription payments
+    - Use `subscription` as auth type instead of `recurring`
     
 3.1.1
 * Improvements
