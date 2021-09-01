@@ -13,6 +13,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 ## Change log
 
+3.1.3
+* Bug fixes
+    - Fix: Order grid showing wrong payment information
+
 3.1.2
 * Bug fixes
     - Use `subscription` as auth type instead of `recurring`
