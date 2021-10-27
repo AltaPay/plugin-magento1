@@ -15,7 +15,7 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 3.1.4
 * Improvement
-    - Support Paypal payment method 
+    - Support PayPal payment method 
 
 3.1.3
 * Bug fixes
