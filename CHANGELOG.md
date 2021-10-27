@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1.4]
+**Improvements**
+- Support redirect with PayPal payment method
+
 ## [3.1.3]
 **Fixes**
 - Fix: Order grid showing wrong payment information
