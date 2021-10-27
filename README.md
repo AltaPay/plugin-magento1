@@ -13,6 +13,10 @@ Feel free to contact our partnership team (partnerships@valitor.com) if you need
 
 ## Change log
 
+3.1.4
+* Improvement
+    - Support Paypal payment method 
+
 3.1.3
 * Bug fixes
     - Fix: Order grid showing wrong payment information
