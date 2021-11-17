@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1.5]
+**Improvements**
+- Added configuration to redirect to cart or on a separate fail page on error
+
 ## [3.1.4]
 **Improvements**
 - Support redirect with PayPal payment method
