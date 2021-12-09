@@ -1,4 +1,4 @@
-# AltaPay for Magento plugin
+# AltaPay for Magento1
 
 Integrating with AltaPay could not be easier. Choose between Hosted, HTTP POST or XML integration options, or
 alternatively browse our selection of client libraries and e-commerce platform modules. Imagine having full
@@ -21,4 +21,4 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Documentation
 
-For more details please see [AltaPay docs](https://documentation.altapay.com/)
+For more details please see [docs](https://github.com/AltaPay/plugin-magento1/wiki)
