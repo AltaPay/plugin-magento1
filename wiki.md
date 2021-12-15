@@ -144,8 +144,8 @@ payment methods and configuring payments.
 </tbody>
 </table>
 
-5. Save the file and make sure the Application-xxxx.js and current.js files have been regenerated.
-6. When you have successfully set up environment you can start processing transactions through AltaPay.
+6. Save the file and make sure the Application-xxxx.js and current.js files have been regenerated.
+7. When you have successfully set up environment you can start processing transactions through AltaPay.
 
 ![altapay_magento1_checkout_page](docs/altapay_magento1_checkout_page.jpg)
 
