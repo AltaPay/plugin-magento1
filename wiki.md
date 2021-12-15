@@ -97,10 +97,13 @@ payment methods and configuring payments.
 
 ![altapay_magento1_plugin_configuration](docs/altapay_magento1_plugin_configuration.jpg)
 
-1. Go to: System > Configuration > AltaPay (If you get a 404 error, please flush your cache and logout and in again).
+1. Go to: System > Configuration > AltaPay (If you get a 404 error, please flush your cache and logout and login again).
 2. Define the gateway URL, username and password (URL for test environment is https://testgateway.altapaysecure.com).
-3. Save the config to have the plug-in to pull a list of available terminals.
-4. For each of the Gateway groups, you have the following options:
+3. Select option for "Fail Payment Action" dropdown. 
+    -   <strong>Redirect To Cart Page</strong> - This will redirect user to cart page
+    -   <strong>Redirect to Fail Page</strong> - This will redirect user to fail page 
+4. Save the config to have the plug-in to pull a list of available terminals.
+5. For each of the Gateway groups, you have the following options:
 
 ![altapay_magento1_plugin_terminal_configuration](docs/altapay_magento1_plugin_terminal_configuration.jpg)
 
