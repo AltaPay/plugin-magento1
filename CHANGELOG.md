@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1.6]
+**Fixes**
+- Fix orderline mismatch issue with capture payment.
+
 ## [3.1.5]
 **Improvements**
 - Added configuration to redirect to cart or on a separate fail page on error
