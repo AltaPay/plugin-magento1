@@ -3,7 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## [3.1.7]
 **Fixes**
-- Fix the issue of a missing compensation order line in the capture call.
+- Fix: Order mismatch issue in case of PayPal orders.
 
 ## [3.1.6]
 **Fixes**
