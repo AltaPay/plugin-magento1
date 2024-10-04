@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1.7]
+**Fixes**
+- Fix: Order mismatch issue in case of PayPal orders.
+
 ## [3.1.6]
 **Fixes**
 - Fix orderline mismatch issue with capture payment.
