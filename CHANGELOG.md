@@ -1,9 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [3.1.8]
-**Fixes**
-Fix: Add support to enable single orderline to fix orderlien mismatch.
+## [3.1.8]  
+**Improvements**  
+- Added a configuration to enable a single order line to resolve order line mismatches in complex pricing configurations.
 
 ## [3.1.7]
 **Fixes**
