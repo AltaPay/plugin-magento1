@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.1.8]  
+**Improvements**  
+- Added a configuration to enable a single order line to resolve order line mismatches in complex pricing configurations.
+
 ## [3.1.7]
 **Fixes**
 - Fix: Order mismatch issue in case of PayPal orders.
